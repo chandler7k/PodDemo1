@@ -1,0 +1,22 @@
+{
+  "name": "PodDemo1",
+  "version": "0.1.0",
+  "summary": "A short description of PodDemo1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chandler7k/PodDemo1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chandler7k": "zouhuanlin@51xianqu.net"
+  },
+  "source": {
+    "git": "https://github.com/chandler7k/PodDemo1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodDemo1/Classes/**/*"
+}
