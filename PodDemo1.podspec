@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PodDemo1'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PodDemo1.'
+  s.summary          = 'ths is bshit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,6 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'PodDemo1/Classes/**/*'
   
+  s.subspec 'WTF' do |noEngine|
+    noEngine.source_files = 'PodDemo1/Classes/**/*'
+    noEngine.public_header_files = 'PodDemo1/Classes/**/*.h'
+  end
+
   # s.resource_bundles = {
   #   'PodDemo1' => ['PodDemo1/Assets/*.png']
   # }

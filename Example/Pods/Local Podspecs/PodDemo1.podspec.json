@@ -1,7 +1,7 @@
 {
   "name": "PodDemo1",
   "version": "0.1.0",
-  "summary": "A short description of PodDemo1.",
+  "summary": "ths is bshit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chandler7k/PodDemo1",
   "license": {
@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PodDemo1/Classes/**/*"
+  "source_files": "PodDemo1/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "WTF",
+      "source_files": "PodDemo1/Classes/**/*",
+      "public_header_files": "PodDemo1/Classes/**/*.h"
+    }
+  ]
 }

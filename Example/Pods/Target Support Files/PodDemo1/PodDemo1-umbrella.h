@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "New.h"
+#import "New.h"
 
 FOUNDATION_EXPORT double PodDemo1VersionNumber;
 FOUNDATION_EXPORT const unsigned char PodDemo1VersionString[];
